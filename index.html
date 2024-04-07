@@ -17,102 +17,126 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section data-background-image="./fond_pc.png" data-background-size="contain">
+
+				<section data-background-image="fond_pc.png" data-background-size="contain">
 					<h2 class="animate-text">Bienvenue !</h2>
 				</section>
-				<section data-background-image="./whoami.png" data-background-size="722px" data-background-position="left" data-background-repeat="no-repeat" data-background-opacity="0.5">
+
+				<section data-background-image="whoami.png" data-background-size="722px" data-background-position="left" data-background-repeat="no-repeat" data-background-opacity="0.5">
 					<h2>Qui suis-je ?</h2>
-				</section>
-				<section data-background-image="./fond_dev.png" >
-					<h2>Développement ?</h2>
-				</section>
-				<section>
-
-					<h2>Idées de thèmes</h2>
-					<ul class="r-fit-text">
-<li class="fragment fade-left">Les différentes activités réalisées dans votre travail
-Développement Web
-Gestion de projet
-Management d'équipe
-Travailler avec les fournisseurs : hébergeur, avis clients par ex, réseaux sociaux
-Réunions d'équipe : qui travaille sur quoi ?
-Réunions pour préparer des nouveaux projets
-Réunions de crise : gros souci sur un site, on ne vend plus ? panique à bord ?
-
-
-</li>
-<li class="fragment fade-left">Description d'une journée type
-	Je dirige une équipe de 8 personnes, coupée en 3 : une partie à Aix, l'autre à Montpellier, 1 en Bretagne
-	On utilise donc beaucoup Slack, un outil pour communiquer entre nous, comme WhatsApp
-Outils de chat : 2
-</li>
-
-<li class="fragment fade-left">les horaires de travail -
-
-	9h-12h/14h-18h environ</li>
-
-<li class="fragment fade-left">lieu(x) d’exercice du métier:
-
-	dans l'entreprise, à Aix, ou en télétravail 2j/semaine</li>
-
-<li class="fragment fade-left">les qualités et compétences demandées
-	passioné par le développement
-  curieux, inventif
-	aimer travailler en équipe
-	autonôme parfois
-</li>
-
-<li class="fragment fade-left">votre parcours de formation
-ESIGELEC, école d'ingénieur généraliste.
-Plein d'autres formations possibles : EPITECH, l'école 42, BTS, BUT, formation de reconversion
-
-
-</li>
-<li class="fragment fade-left">la place de l’anglais dans votre profession</li>
-<li class="fragment fade-left">L’éducation nationale s’engage pour le développement durable et la transition écologique :
-	la question de l’environnement est au coeur des nouveaux programme du lycée.
-
-	parler de la question de la consommation énergétique
-	Green IT ?
-  Netflix, moteurs de recherche comme Google, l'intelligence articielle, le bitcoin - consommation énergétique monstrueuse
-
-
-</li>
-<li class="fragment fade-left">Entreprise ? égalité fille/ garçon: la part des femmes et des hommes dans votre entreprise
-
-	Parmi les développeurs/euses, il y a encore peu de femmes.
-	La preuve, je n'ai qu'une femme dans mon équipe sur 8 personnes...
-
-	Par contre, au service marketing, dont je fais partie, c'est principalement des femmes :
-	   graphistes, designeuses
-	   community manager
-		 responsable produit
-		 ventes
-
-  De nombreuses initiatives existent pour promouvoir la place de la femme dans ce métier.
-
-</li>
-					</ul>
-
-TROUVER QQ PHOTOS HOMAIR
-QQ PHOTOS AGREMENTANT LA PRESENTATION
-
-				</section>
-				<section>
-					<section>Slide 2.1</section>
-					<section>Slide 2.2</section>
-				</section>
-				<section data-transition="convex">
-					<h3>data-transition: convex</h3>
-				</section>
-				<section data-background="indigo">
-					<h2>Scroll triggered fragments</h2>
 					<ul>
-						<li class="fragment fade-left">Step one</li>
-						<li class="fragment fade-left">Step two</li>
-						<li class="fragment fade-left">Step three</li>
+						<li class="fragment fade-in-then-out"><img src="dino.gif" /></li>
 					</ul>
 				</section>
+				<section data-background-image="whoami.png" data-background-size="722px" data-background-position="left" data-background-repeat="no-repeat" data-background-opacity="0.5">
+					<h2>Qui suis-je ?</h2>
+					<div class="r-stack">
+						<img src="homair1.png" class="fragment"  id="pos1"/>
+						<img src="piscine-reve.jpg" class="fragment" id="pos2"/>
+						<img src="chapelle.jpg"  class="fragment" id="pos3" width="480"/>
+					</div>
+				</section>
+
+
+				<section data-background-image="fond_dev.png">
+					<h2 class="mytitle">Développement - Quésaco ?</h2>
+				</section>
+				<section>
+					<section>
+						<h2>Journée d'un·e développeur·euse</h2>
+					</section>
+					<section >
+						<p>Journée d'un·e développeur·euse</p>
+						<h3>Stand-up meeting du matin - 10min</h3>
+						<img src="standup.jpg" width="640"/>
+					</section>
+					<section>
+						<p>Journée d'un·e développeur·euse</p>
+						<h3>Coder</h3>
+						<pre class="fragment" data-id="code-animation"><code class="hljs javascript" data-trim data-line-numbers>
+							import React, { useState } from 'react';
+
+							function Example() {
+								const [count, setCount] = useState(0);
+
+								return (
+									...
+								);
+							}
+						</code></pre>
+						<div class="fragment">
+							<p>Dans le jargon, on dit "pisser du code" !</p>
+							<img src="mannekenpis-bruxelles.png" height="180"/></div>
+					</section>
+					<section>
+						<p>Journée d'un·e développeur·euse</p>
+						<h2>Réunions de conception</h2>
+						<img src="reunion.png"/>
+					</section>
+					<section>
+						<p>Journée d'un·e développeur·euse</p>
+						<h2>Correction des bugs</h2>
+						<img src="bug.png" height="480"/>
+					</section>
+					<section>
+						<p>Journée d'un·e développeur·euse</p>
+						<h2>Déployer en production</h2>
+						<img src="deploy.png"/>
+					</section>
+				</section>
+
+				<section>
+					<h2>Conditions de travail, avantages, salaire</h2>
+					<ul>
+						<li class="fragment fade-left">Horaires</li>
+						<li class="fragment fade-left">Lieu</li>
+						<li class="fragment fade-left">Salaire</li>
+						<li class="fragment fade-left">Facile de trouver du travail</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Qualités et compétences demandées</h2>
+					<ul>
+						<li class="fragment fade-left">Passioné par le développement</li>
+						<li class="fragment fade-left">Curieux, inventif</li>
+						<li class="fragment fade-left">Aimer travailler en équipe</li>
+						<li class="fragment fade-left">Autonome aussi</li>
+						<li class="fragment fade-left">🇬🇧 ANGLAIS !! Quotidien au moins en lecture</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Formation</h2>
+					<ul>
+						<li class="fragment fade-left">Exemple de mon parcours</li>
+						<li class="fragment fade-left">Nombreuses possibilités :
+							<ul>
+								<li class="fragment">Parcours plutôt scientifique</li>
+								<li class="fragment">Bac+5: école d'ingénieur, exemple : EPITECH</li>
+								<li class="fragment">Ecole 42: 3 ans, originale et plutôt réputée aussi</li>
+								<li class="fragment">BTS, BUT</li>
+								<li class="fragment">Beaucoup de formation de reconversion...</li>
+							</ul>
+						</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Ecologie et développement, possible ?</h2>
+					<ul>
+						<li class="fragment fade-left">Consommation énergétique</li>
+						<li class="fragment fade-left">Green IT</li>
+						<li class="fragment fade-left">Choisir son employeur</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Place des femmes ?</h2>
+				</section>
+
+				<section>
+					<p>Merci de votre attention !</p>
+					<h2>Des questions ?</h2>
+					<img src="questions2.jpg" />
+				</section>
+
 			</div>
 		</div>
 
@@ -127,10 +151,16 @@ QQ PHOTOS AGREMENTANT LA PRESENTATION
 			Reveal.initialize({
 				hash: true,
 
+				// Activate the scroll view
+				view: 'scroll',
+				slideNumber: true ,
+
 				// Learn about plugins: https://revealjs.com/plugins/
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
 			});
 		</script>
 		<script src="custom.js"></script>
+		<!-- Chart plugin -->
+
 	</body>
 </html>

@@ -5,6 +5,11 @@
   color:black;
 }
 
+.mytitle {
+  box-shadow: #666 3px 4px 12px;
+  background-color: #ffffff85;
+  color: black !important;
+}
 
 .animate-text {
   width:100%;
@@ -14,7 +19,15 @@
   color: yellow;
 }
 
-
+.relative {
+  position: relative;
+}
+#pos2 {
+  transform: rotate(20deg);
+}
+#pos3 {
+  transform: rotate(340deg);
+}
 /* effet machine à écrire + animation CSS (SPECIAL) */
 /*
 .animate-text span {
