@@ -25,7 +25,7 @@
         Sites web: sites vitrines, booking, airbnb, deezer/spotify, google, tiktok, ...
         Autres domaines : Intelligence artificielle, applications comme Windows, ou autre logiciels
 
-    Beaucoup de métier derrière le terme de développeur.
+    Beaucoup de métiers derrière le terme de développeur.
         Freelance
         Société de service: vous créez pour les autres
         Client final: vous créez pour votre société
